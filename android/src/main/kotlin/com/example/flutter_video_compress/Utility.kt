@@ -52,11 +52,11 @@ class Utility(private val channelName: String) {
             null
         }
         val ori = orientation?.toIntOrNull()
-        if (ori != null && isLandscapeImage(ori)) {
-            val tmp = width
-            width = height
-            height = tmp
-        }
+//         if (ori != null && isLandscapeImage(ori)) {
+//             val tmp = width
+//             width = height
+//             height = tmp
+//         }
 
         retriever.release()
 
